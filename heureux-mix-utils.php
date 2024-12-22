@@ -61,8 +61,8 @@ add_action('wp_enqueue_scripts', 'hmu_enqueue_assets');
 function hmu_add_menu_page()
 {
     add_menu_page(
-        __('Heureux Mix Utils', 'heureux-mix-utils'),
-        __('Heureux Mix Utils', 'heureux-mix-utils'),
+        __('Utils', 'heureux-mix-utils'),
+        __('Utils', 'heureux-mix-utils'),
         'manage_options',
         'heureux-mix-utils',
         'hmu_settings_page',
